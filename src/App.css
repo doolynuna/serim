@@ -1,11 +1,10 @@
-.App {
-  text-align: center;
+.Header {
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+  flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -32,7 +31,29 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.flex1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.hi {
+  font-size: 30px;
+}
+
+.hi-des {
+  font-size: 16px;
+  color: bisque;
+}
+
+.q1 {
+  margin-top: 100px;
+  cursor: help;
 }
