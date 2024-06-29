@@ -5,13 +5,13 @@ import { BrowserTypes, BrowserView, MobileView } from 'react-device-detect';
 function App() {
   return (
     <div className="App">
-     
-       <BrowserView>
-       desk! </BrowserView>
-       <MobileView>
+
+      <BrowserView>
+        desk!serim </BrowserView>
+      <MobileView>
         mobile!
-       </MobileView>
-        
+      </MobileView>
+
     </div>
   );
 }
